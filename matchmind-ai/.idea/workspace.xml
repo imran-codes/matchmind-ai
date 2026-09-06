@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="25452a1a-f786-49a6-9e95-6864858cdcb0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gcloudignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gcloudignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/matchmind-ai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/matchmind-ai.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BUILD_GUIDE.md" beforeDir="false" afterPath="$PROJECT_DIR$/BUILD_GUIDE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DEPLOY_GCP.md" beforeDir="false" afterPath="$PROJECT_DIR$/DEPLOY_GCP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../YOUTUBE_DEMO_GUIDE.md" beforeDir="false" afterPath="$PROJECT_DIR$/YOUTUBE_DEMO_GUIDE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/agents/football_agent/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/agents/football_agent/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/agents/football_agent/agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/agents/football_agent/agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/app/agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/app/agent_runtime.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/agent_runtime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/app/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/app/features.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/app/generate_demo_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/generate_demo_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/app/prediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/prediction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/app/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/schemas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/app/telemetry.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/telemetry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/app/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/app/vertex_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/vertex_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/artifacts/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/backend/artifacts/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/data/matches.csv" beforeDir="false" afterPath="$PROJECT_DIR$/backend/data/matches.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/requirements.lock" beforeDir="false" afterPath="$PROJECT_DIR$/backend/requirements.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/tests/test_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/test_agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/tests/test_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/test_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/tests/test_features.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/test_features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/tests/test_prediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/test_prediction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudbuild.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudbuild.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/architecture.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/architecture.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/model-card.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/model-card.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/production-checklist.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/production-checklist.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/verification.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/verification.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../evals/evals/live-report.json" beforeDir="false" afterPath="$PROJECT_DIR$/evals/evals/live-report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../evals/run_live_evals.py" beforeDir="false" afterPath="$PROJECT_DIR$/evals/run_live_evals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/vite-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/vite-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/download_football_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/download_football_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.2669033196397748" />
+      <entry key="MS500" value="3.0944088023461425" />
+      <entry key="S2" value="5.780251848418848" />
+      <entry key="S5" value="7.371958517098407" />
+      <entry key="S10" value="8.127337688574533" />
+      <entry key="S30" value="9.994172169192957" />
+      <entry key="S60" value="13.953849913400665" />
+      <entry key="M2" value="20.176281849195572" />
+      <entry key="M5" value="27.800647684335654" />
+      <entry key="M10" value="31.495747161178315" />
+      <entry key="M15" value="32.89865144024005" />
+      <entry key="M30" value="34.39771512079641" />
+      <entry key="H1" value="35.185493009787855" />
+      <entry key="H2" value="35.589345757680206" />
+      <entry key="H4" value="35.79381512053764" />
+      <entry key="D1" value="35.965516072008725" />
+      <entry key="W1" value="35.99507078265781" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.2322236812378116" />
+      <entry key="MS500" value="3.0768450343859373" />
+      <entry key="S2" value="5.77211308747331" />
+      <entry key="S5" value="7.367842126398797" />
+      <entry key="S10" value="8.125075062016778" />
+      <entry key="S30" value="9.99297305436305" />
+      <entry key="S60" value="13.9519344926871" />
+      <entry key="M2" value="20.173829717843265" />
+      <entry key="M5" value="27.798809089915355" />
+      <entry key="M10" value="31.494606127493203" />
+      <entry key="M15" value="32.89783346893367" />
+      <entry key="M30" value="34.397275222082186" />
+      <entry key="H1" value="35.18526487805182" />
+      <entry key="H2" value="35.58922958685926" />
+      <entry key="H4" value="35.7937565013011" />
+      <entry key="D1" value="35.96550622734145" />
+      <entry key="W1" value="35.99506937443651" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="3IxsGK3GOdHqZonOHNBA38qKsrH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.run_live_evals.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "starter-template",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/imranhussain/PycharmProjects/matchmind-ai",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-821f704e66d9-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.9437.214" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25452a1a-f786-49a6-9e95-6864858cdcb0" name="Changes" comment="" />
+      <created>1788717456460</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1788717456460</updated>
+      <workItem from="1788717457462" duration="4172000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/matchmind_ai$run_live_evals.coverage" NAME="run_live_evals Coverage Results" MODIFIED="1788717512341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/evals" />
+  </component>
+</project>
