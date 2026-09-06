@@ -1,0 +1,17 @@
+steps:
+  # Download the release already trained, tested and uploaded. Never retrain during deployment.
+  - name: gcr.io/google.com/cloudsdktool/cloud-sdk:slim
+    entrypoint: bash
+    args:
+      - -ceu
+      - |
+        mkdir -p backend/artifacts
+        gcloud storage cp gs://${_BUCKET}/releases/${_RELEASE}/model.joblib backend/artifacts/
+        gcloud storage cp gs://${_BUCKET}/releases/${_RELEASE}/profiles.json backend/artifacts/
+        gcloud storage cp gs://${_BUCKET}/releases/${_RELEASE}/metadata.json backend/artifacts/
+  - name: gcr.io/cloud-builders/docker
+    args: [build, -t, '${_IMAGE}', .]
+images: ['${_IMAGE}']
+options:
+  logging: CLOUD_LOGGING_ONLY
+timeout: 1200s

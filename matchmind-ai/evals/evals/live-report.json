@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "case": "explicit_fixture",
+      "passed": false,
+      "error_type": "URLError"
+    },
+    {
+      "case": "two_fixtures",
+      "passed": false,
+      "error_type": "URLError"
+    },
+    {
+      "case": "incomplete_fixture",
+      "passed": false,
+      "error_type": "URLError"
+    },
+    {
+      "case": "unknown_teams",
+      "passed": false,
+      "error_type": "URLError"
+    }
+  ],
+  "passed": 0,
+  "total": 4,
+  "scope": "Small live smoke suite. Does not establish accuracy, fairness or production safety."
+}

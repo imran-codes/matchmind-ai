@@ -1,0 +1,14 @@
+.git
+.venv
+frontend/node_modules
+frontend/dist
+**/__pycache__
+**/*.pyc
+.pytest_cache
+.env
+.env.*
+gcp.env
+**/application_default_credentials.json
+backend/artifacts/*.joblib
+backend/artifacts/*.json
+*.zip

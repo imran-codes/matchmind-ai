@@ -1,0 +1,8 @@
+services:
+  matchmind:
+    build: .
+    ports: ["8080:8080"]
+    environment:
+      AGENT_ENABLED: "false"
+# Direct-model smoke test. Enable the real agent locally with ADC using the build guide.
+# Never COPY an ADC credential file into the image.

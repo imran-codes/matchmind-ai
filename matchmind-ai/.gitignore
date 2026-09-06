@@ -1,0 +1,14 @@
+.venv/
+node_modules/
+frontend/dist/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+.env.*
+!.env.example
+gcp.env
+backend/artifacts/*.joblib
+backend/artifacts/*.json
+*.tsbuildinfo
+.DS_Store
