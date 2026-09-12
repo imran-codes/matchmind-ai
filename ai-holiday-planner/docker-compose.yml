@@ -1,0 +1,52 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_DB: holidays
+      POSTGRES_USER: holiday
+      POSTGRES_PASSWORD: holiday
+    ports:
+      - "5432:5432"
+
+#Architecture:
+#
+#PostgreSQL
+#│
+#├── relational data
+#│
+#└── vectors
+#
+#That is the nice part about pgvector: you don't need an entirely separate vector platform for this scale of demo.
+
+#THE BELOW IS TO CREATE AND DISPLAY A TABLE
+
+# CREATE TABLE destination_knowledge (
+#    id BIGSERIAL PRIMARY KEY,
+#    destination TEXT NOT NULL,
+#    content TEXT NOT NULL,
+#    embedding VECTOR(768)
+#);
+#////
+# \dt
+#\d destination_knowledge
+#SELECT * FROM destination_knowledge LIMIT 10;
+
+
+# OUTPUTS
+
+#List of relations
+#-[ RECORD 1 ]-----------------
+#Schema | public
+#Name   | destination_knowledge
+#Type   | table
+#Owner  | holiday
+#
+#                                 Table "public.destination_knowledge"
+#   Column    |    Type     | Collation | Nullable |                      Default
+#-------------+-------------+-----------+----------+---------------------------------------------------
+# id          | bigint      |           | not null | nextval('destination_knowledge_id_seq'::regclass)
+# destination | text        |           | not null |
+# content     | text        |           | not null |
+# embedding   | vector(768) |           |          |
+#Indexes:
+#    "destination_knowledge_pkey" PRIMARY KEY, btree (id)

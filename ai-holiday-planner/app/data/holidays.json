@@ -1,0 +1,50 @@
+[
+  {
+    "destination": "Majorca",
+    "hotel": "Alcudia Family Resort",
+    "departure_airport": "Manchester",
+    "month": "June",
+    "price": 3100,
+    "stars": 4,
+    "board": "All Inclusive",
+    "transfer_minutes": 45,
+    "temperature_c": 27,
+    "tags": ["family", "beach", "warm", "short transfer"]
+  },
+  {
+    "destination": "Tenerife",
+    "hotel": "Costa Adeje Resort",
+    "departure_airport": "Manchester",
+    "month": "June",
+    "price": 3250,
+    "stars": 4,
+    "board": "All Inclusive",
+    "transfer_minutes": 25,
+    "temperature_c": 26,
+    "tags": ["family", "beach", "warm"]
+  },
+  {
+    "destination": "Antalya",
+    "hotel": "Lara Beach Family Resort",
+    "departure_airport": "Manchester",
+    "month": "June",
+    "price": 2900,
+    "stars": 5,
+    "board": "All Inclusive",
+    "transfer_minutes": 20,
+    "temperature_c": 31,
+    "tags": ["family", "luxury", "warm", "all inclusive"]
+  },
+  {
+    "destination": "Dubai",
+    "hotel": "Palm Family Hotel",
+    "departure_airport": "Manchester",
+    "month": "June",
+    "price": 4500,
+    "stars": 5,
+    "board": "Half Board",
+    "transfer_minutes": 35,
+    "temperature_c": 38,
+    "tags": ["luxury", "warm", "city", "beach"]
+  }
+]
